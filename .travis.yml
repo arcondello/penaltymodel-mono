@@ -20,3 +20,8 @@ script:
       if [[ -n $(grep core target_packages) ]]; then
         nox -f core/nox.py
       fi
+  # penaltymodel.cache
+  - |
+      if [[ -n $(grep cache target_packages) ]]; then
+        nox -f cache/nox.py
+      fi
