@@ -1,0 +1,13 @@
+*.pyc
+
+*.egg-info/
+
+tmp/
+
+*.coverage
+
+htmlcov/
+
+venv*/
+
+build/
