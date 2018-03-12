@@ -1,0 +1,16 @@
+*.pyc
+
+# virtual environment
+venv*/
+
+# sublime support
+*.sublime-project
+*.sublime-workspace
+
+# python build stuff
+build
+dist
+*.egg-info
+
+htmlcov/
+.coverage
